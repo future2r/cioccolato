@@ -83,6 +83,8 @@ The project is organized as a .NET solution with three projects:
 * `Cioccolato.Gui.Tests/` - Unit tests (xUnit, FluentAssertions)
 * `Design/` - Design assets (ICO and PNG in various sizes)
 
+The view-model class is named `MainWindowViewModel` and backs a `MainWindow` (WinUI 3's root view is a `Window`). The other tutorial projects use `MainViewModel` (tomato, macchiato), `MainWindowViewModel` (potato) or `MainPageViewModel` (gelato), following each framework's root view type.
+
 The language can be overridden at startup with the `--lang=` argument (e.g. `--lang=en-US`, `--lang=de-DE`).
 
 ## Project Setup
