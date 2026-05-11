@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Cioccolato.Core/Cioccolato.Core.csproj" />
+  <Project Path="Cioccolato.Gui/Cioccolato.Gui.csproj" />
+  <Project Path="Cioccolato.Gui.Tests/Cioccolato.Gui.Tests.csproj" />
+</Solution>

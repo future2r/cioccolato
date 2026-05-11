@@ -1,0 +1,41 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Cioccolato",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/Cioccolato.Gui/bin/Debug/net10.0-windows10.0.19041.0/win-x64/Cioccolato.Gui.exe",
+			"cwd": "${workspaceFolder}/Cioccolato.Gui/bin/Debug/net10.0-windows10.0.19041.0/win-x64",
+			"console": "internalConsole",
+			"stopAtEntry": false
+		},
+		{
+			"name": "Cioccolato (English)",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/Cioccolato.Gui/bin/Debug/net10.0-windows10.0.19041.0/win-x64/Cioccolato.Gui.exe",
+			"cwd": "${workspaceFolder}/Cioccolato.Gui/bin/Debug/net10.0-windows10.0.19041.0/win-x64",
+			"console": "internalConsole",
+			"stopAtEntry": false,
+			"args": [
+				"--lang=en-US"
+			]
+		},
+		{
+			"name": "Cioccolato (German)",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/Cioccolato.Gui/bin/Debug/net10.0-windows10.0.19041.0/win-x64/Cioccolato.Gui.exe",
+			"cwd": "${workspaceFolder}/Cioccolato.Gui/bin/Debug/net10.0-windows10.0.19041.0/win-x64",
+			"console": "internalConsole",
+			"stopAtEntry": false,
+			"args": [
+				"--lang=de-DE"
+			]
+		}
+	]
+}
